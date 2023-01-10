@@ -12,7 +12,7 @@ def add_version(data, filename='versions_hyd_host2.json'):
     with open(filename,'w') as f:
         json.dump(data, f,indent=4)
         
-repo = Repo('C:\git practice\testing')
+repo = Repo('C:\git practice\\testing')
 g.pull()
 #version=input()
 
