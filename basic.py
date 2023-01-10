@@ -3,7 +3,7 @@ import json
 from git import Repo
 import os
 
-g = git.cmd.Git('https://github.com//Harshitha-Butta//repo4')
+g = git.cmd.Git('https://github.com//Harshitha-Butta//testing.git')
 
 
 
@@ -12,7 +12,7 @@ def add_version(data, filename='versions_hyd_host2.json'):
     with open(filename,'w') as f:
         json.dump(data, f,indent=4)
         
-repo = Repo('C:\\git practice\\repo4')
+repo = Repo('C:\git practice\testing')
 g.pull()
 #version=input()
 
